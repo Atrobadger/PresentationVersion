@@ -1,0 +1,31 @@
+<h1>SitePages#home</h1>
+<p>This will be the user's personal page, containing their listings and profile</p>
+
+<table>
+    <tr>
+        <th>User Id</th>
+        <th>Start Time</th>
+        <th>End Time</th>
+        <th>Shift Length</th>
+        <th>Department</th>
+        <th>Store Id</th>
+        <th>Choose A Shift</th>
+    </tr>
+    <% @shifts.each do |shift| %>
+        <% if shift.ispublic == false %>
+            <tr>
+                <td><%= shift.userid %></td>
+                <td><%= shift.starttime %></td>
+                <td><%= shift.endtime %></td>
+                <td><%= shift.shiftlength %></td>
+                <td><%= shift.department %></td>
+                <td><%= shift.storeid %></td>
+                <td><%= link_to "Select", {:controller => "site_pages",
+                                   :action => "movePublic",
+                                   :id => shift.id,
+                                   :userid => shift.userid}, method: "post",
+                                class: "btn btn-sm btn-success" %></td>
+            </tr>
+        <% end %>
+    <% end %>
+</table>

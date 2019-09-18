@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cashier: 1
+  stockhandler: 1
+  dairy: 1
+  deli: 1
+  baker: 1
+
+two:
+  cashier: 1
+  stockhandler: 1
+  dairy: 1
+  deli: 1
+  baker: 1
