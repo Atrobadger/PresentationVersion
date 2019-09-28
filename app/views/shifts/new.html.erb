@@ -1,0 +1,76 @@
+<div class="row justify-content-md-center mt-5">
+    <div class="col-4">
+        <%= form_tag newlisting_path do |form| %>
+        <div class="form-group">
+            <% if @errors != nil %>
+            <div class="alert alert-danger" role="alert">
+                <% @errors.each do |error| %>
+                <div><%= error %></div>
+                <% end %>
+            </div>
+            <% end %>
+        </div>
+        <div class="form-group">
+            <label><%= label_tag :starttime %></label>
+            <%= text_field_tag :starttime, "", class: 'form-control' %>
+            <small id="startHelp" class="form-text text-muted">Shift Start time</small>
+        </div>
+        <div class="form-group">
+            <label><%= label_tag :endtime %></label>
+            <%= text_field_tag :endtime, "", class: 'form-control' %>
+            <small id="endHelp" class="form-text text-muted">Shift End time</small>
+        </div>
+        <div class="form-group">
+            <label><%= label_tag :shiftlength %></label>
+            <%= text_field_tag :shiftlength, "", class: 'form-control' %>
+            <small id="shiftHelp" class="form-text text-muted">Shift length (end - start)</small>
+        </div>
+        <div class="form-group">
+            <label><%= label_tag :storeid %></label>
+            <%= text_field_tag :storeid, "", class: 'form-control' %>
+            <small id="storeHelp" class="form-text text-muted">Store id</small>
+        </div>
+        <div class="form-group">
+            <label><%= label_tag :department %></label>
+            <select name="department" id="department" class="form-control">
+                <option>1</option></option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <small id="departmentHelp" class="form-text text-muted">Select department</small>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <% end %>
+    </div>
+</div>
+
+<script>
+    function getDepartments(storeId){
+        axios({
+            method: 'GET', 
+            url: "/departments?store=" + storeId,
+            headers: {
+                'X-CSRF-Token': document.querySelector("meta[name=csrf-token]").content
+            }
+        })
+        .then(function(response) {
+            if(response && response.data){
+                const departments = response.data;
+                const storeDDL = document.querySelector("#department");
+                storeDDL.innerHTML = '';
+                departments.forEach((dep)=>{
+                    let dept = document.createElement('option');
+                    dept.value = dep.id;
+                    dept.innerHTML = dep.name;
+
+                    storeDDL.appendChild(dept);
+                });
+            }
+        })
+        .catch(function(error) {
+            console.log(error);
+        });
+    }
+</script>

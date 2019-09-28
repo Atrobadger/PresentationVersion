@@ -4,9 +4,6 @@ class SitePagesController < ApplicationController
     render 'home'
   end
 
-  def login
-  end
-
   def profile
   end
 
@@ -37,4 +34,9 @@ class SitePagesController < ApplicationController
   @preferences = Preference.all
   
   end
+  
+  def newShift
+    
+  end
+  
 end

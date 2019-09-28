@@ -3684,3 +3684,2484 @@ Processing by SitePagesController#listings as HTML
 Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.8ms)
 
 
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for 121.208.17.17 at 2019-09-19 05:12:38 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.6ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 259ms (Views: 247.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-19 05:12:40 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 05:12:45 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  Rendered site_pages/listings.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:41: syntax error, unexpected ensure, expecting end
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:43: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/site_pages/listings.html.erb:41: syntax error, unexpected ensure, expecting end
+app/views/site_pages/listings.html.erb:43: syntax error, unexpected end-of-input, expecting end
+app/controllers/site_pages_controller.rb:15:in `listings'
+Started GET "/" for 121.208.17.17 at 2019-09-19 05:13:17 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 05:13:19 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 37ms (Views: 36.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 05:14:35 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 05:15:12 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 05:15:27 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 05:15:45 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 05:19:38 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 05:23:00 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 05:36:54 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 05:36:58 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/listings?id=1&userid=1" for 121.208.17.17 at 2019-09-19 05:36:59 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#movePrivate as HTML
+  Parameters: {"authenticity_token"=>"Llt1qnPXdnAB8dgxLI08zRCqmdWaGJEbdjCFmVUp9kYaVyPl4v2ASZuKxMNdgn1+6kqEW+miSvxIZ/O2QvPYgA==", "id"=>"1", "userid"=>"1"}
+  [1m[36mShift Load (0.7ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[33mUPDATE "shifts" SET "ispublic" = ?, "updated_at" = ? WHERE "shifts"."id" = ?[0m  [["ispublic", "f"], ["updated_at", "2019-09-19 05:36:59.384259"], ["id", 1]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 36ms (Views: 21.8ms | ActiveRecord: 7.6ms)
+
+
+Started POST "/listings?id=2&userid=2" for 121.208.17.17 at 2019-09-19 05:37:00 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#movePrivate as HTML
+  Parameters: {"authenticity_token"=>"14zdzsLkj5fnKpxAR2Il3/oMeibegeXHLlgp7dvpmjTjgIuBU855rn1RgLI2bWRsAOxnqK07PiAQD1/CzDO08g==", "id"=>"2", "userid"=>"2"}
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.7ms)[0m  [1m[33mUPDATE "shifts" SET "ispublic" = ?, "updated_at" = ? WHERE "shifts"."id" = ?[0m  [["ispublic", "f"], ["updated_at", "2019-09-19 05:37:00.303945"], ["id", 2]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 40ms (Views: 22.3ms | ActiveRecord: 9.2ms)
+
+
+Started POST "/listings?id=3&userid=3" for 121.208.17.17 at 2019-09-19 05:37:00 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#movePrivate as HTML
+  Parameters: {"authenticity_token"=>"InUYSCpnaZTpbrxVzDtiytetnHFKtLStJDs0KG/9RBcWeU4Hu02frXMVoKe9NCN5LU2B/zkOb0oabEIHeCdq0Q==", "id"=>"3", "userid"=>"3"}
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[33mUPDATE "shifts" SET "ispublic" = ?, "updated_at" = ? WHERE "shifts"."id" = ?[0m  [["ispublic", "f"], ["updated_at", "2019-09-19 05:37:00.951317"], ["id", 3]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 43ms (Views: 33.1ms | ActiveRecord: 6.9ms)
+
+
+Started POST "/listings?id=4&userid=1" for 121.208.17.17 at 2019-09-19 05:37:01 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#movePrivate as HTML
+  Parameters: {"authenticity_token"=>"bGKgrhBoEaRS7Wg+3ko0cCCoP+DesJiyAZfjSTEH2ExYbvbhgULnnciWdMyvRXXD2kgibq0KQ1U/wJVmJt32ig==", "id"=>"4", "userid"=>"1"}
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.6ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[33mUPDATE "shifts" SET "ispublic" = ?, "updated_at" = ? WHERE "shifts"."id" = ?[0m  [["ispublic", "f"], ["updated_at", "2019-09-19 05:37:01.557751"], ["id", 4]]
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 33ms (Views: 22.1ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 05:37:02 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 05:52:24 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 06:28:48 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 23ms (Views: 22.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 06:28:50 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for 121.208.17.17 at 2019-09-19 14:40:34 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (1.7ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 237ms (Views: 223.3ms | ActiveRecord: 2.3ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for 121.208.17.17 at 2019-09-19 17:26:19 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.7ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (21.7ms)
+Completed 200 OK in 238ms (Views: 224.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-19 17:26:20 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 20ms (Views: 19.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:26:23 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  Rendered site_pages/listings.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:18: syntax error, unexpected '<'
+               when < 24 
+                    ^
+/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:20: syntax error, unexpected when, expecting end
+'.freeze;               when 23...48 
+                        ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:22: syntax error, unexpected when, expecting end
+'.freeze;               when 47...72
+                        ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:24: syntax error, unexpected when, expecting end
+'.freeze;               when 71...96
+                        ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:26: syntax error, unexpected when, expecting end
+'.freeze;               when 95...120
+                        ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:28: syntax error, unexpected when, expecting end
+'.freeze;               when 119...144
+                        ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:30: syntax error, unexpected when, expecting end
+'.freeze;               when 143...168
+                        ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/site_pages/listings.html.erb:74: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/site_pages/listings.html.erb:18: syntax error, unexpected '<'
+app/views/site_pages/listings.html.erb:20: syntax error, unexpected when, expecting end
+app/views/site_pages/listings.html.erb:22: syntax error, unexpected when, expecting end
+app/views/site_pages/listings.html.erb:24: syntax error, unexpected when, expecting end
+app/views/site_pages/listings.html.erb:26: syntax error, unexpected when, expecting end
+app/views/site_pages/listings.html.erb:28: syntax error, unexpected when, expecting end
+app/views/site_pages/listings.html.erb:30: syntax error, unexpected when, expecting end
+app/views/site_pages/listings.html.erb:74: syntax error, unexpected ensure, expecting end-of-input
+app/controllers/site_pages_controller.rb:15:in `listings'
+Started GET "/" for 121.208.17.17 at 2019-09-19 17:28:39 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 20ms (Views: 18.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:28:41 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 26ms (Views: 25.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 17:28:46 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/home?id=1&userid=1" for 121.208.17.17 at 2019-09-19 17:28:48 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#movePublic as HTML
+  Parameters: {"authenticity_token"=>"2PLy34ElfZj8mLNcqLHm1TU5StZTBDyar77sCdia7zEaR1c4BqdagpwmEhU2+wb1pi180PJ12o2IeccCiuNc5A==", "id"=>"1", "userid"=>"1"}
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "shifts" SET "ispublic" = ?, "updated_at" = ? WHERE "shifts"."id" = ?[0m  [["ispublic", "t"], ["updated_at", "2019-09-19 17:28:48.743724"], ["id", 1]]
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 69ms (Views: 55.8ms | ActiveRecord: 5.8ms)
+
+
+Started POST "/home?id=2&userid=2" for 121.208.17.17 at 2019-09-19 17:28:49 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#movePublic as HTML
+  Parameters: {"authenticity_token"=>"e5+w9akL2Sk3A/+V+/XIqm1Yai3dVYvLEVKmKkt2yxO5KhUSLon+M1e9XtxlvyiK/kxcK3wkbdw2lY0hGQ94xg==", "id"=>"2", "userid"=>"2"}
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "shifts" SET "ispublic" = ?, "updated_at" = ? WHERE "shifts"."id" = ?[0m  [["ispublic", "t"], ["updated_at", "2019-09-19 17:28:49.581783"], ["id", 2]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 28ms (Views: 18.7ms | ActiveRecord: 4.7ms)
+
+
+Started POST "/home?id=3&userid=3" for 121.208.17.17 at 2019-09-19 17:28:50 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#movePublic as HTML
+  Parameters: {"authenticity_token"=>"DAHxfVYN6en/sjsirkmaP7SN4N604WFNrZw5xH2HU+rOtFSa0Y/O858MmmswA3ofJ5nW2BWQh1qKWxLPL/7gPw==", "id"=>"3", "userid"=>"3"}
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "shifts" SET "ispublic" = ?, "updated_at" = ? WHERE "shifts"."id" = ?[0m  [["ispublic", "t"], ["updated_at", "2019-09-19 17:28:50.250603"], ["id", 3]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 29ms (Views: 17.7ms | ActiveRecord: 5.6ms)
+
+
+Started POST "/home?id=4&userid=1" for 121.208.17.17 at 2019-09-19 17:28:50 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#movePublic as HTML
+  Parameters: {"authenticity_token"=>"iy2J9HzwW+nwdJCxI8jHEPqVHpicEzkcaOTcKZDi2i1JmCwT+3J885DKMfi9gicwaYEonj1i3wtPI/ciwptp+A==", "id"=>"4", "userid"=>"1"}
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "shifts" SET "ispublic" = ?, "updated_at" = ? WHERE "shifts"."id" = ?[0m  [["ispublic", "t"], ["updated_at", "2019-09-19 17:28:50.917928"], ["id", 4]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 27ms (Views: 17.2ms | ActiveRecord: 5.9ms)
+
+
+Started POST "/home?id=11&userid=7" for 121.208.17.17 at 2019-09-19 17:28:51 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#movePublic as HTML
+  Parameters: {"authenticity_token"=>"ys9hTg/owK4qLdOuOY/LSNUl17yEC35wOT7Lhf/AMbgIesSpiGrntEqTcuenxStoRjHhuiV6mGce+eCOrbmCbQ==", "id"=>"11", "userid"=>"7"}
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[33mUPDATE "shifts" SET "ispublic" = ?, "updated_at" = ? WHERE "shifts"."id" = ?[0m  [["ispublic", "t"], ["updated_at", "2019-09-19 17:28:51.580366"], ["id", 11]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 27ms (Views: 17.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:28:52 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 21ms (Views: 20.6ms | ActiveRecord: 0.2ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:30:42 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:30:45 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 24ms (Views: 23.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 17:30:46 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:30:47 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.2ms)[0m  [1m[32mINSERT INTO "shifts" ("userid", "starttime", "endtime", "shiftlength", "storeid", "ispublic", "created_at", "updated_at", "department") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["userid", 1], ["starttime", 30], ["endtime", 36], ["shiftlength", 6], ["storeid", 1], ["ispublic", "t"], ["created_at", "2019-09-19 17:31:49.054404"], ["updated_at", "2019-09-19 17:31:49.054404"], ["department", 3]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:31:54 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (bad value for range):
+    17:               <% case %>
+    18:               <% when shift.starttime < 24 %>
+    19:                   <td><%= shift.starttime %>:00</td>
+    20:               <% when shift.starttime == 23...48 %>
+    21:                   <td><%= shift.starttime - 24 %>:00</td>
+    22:               <% when shift.starttime ==  47...72%>
+    23:                   <td><%= shift.starttime - 48 %>:00</td>
+  
+app/views/site_pages/listings.html.erb:20:in `block in _app_views_site_pages_listings_html_erb__516512219790244679_70294791370080'
+app/views/site_pages/listings.html.erb:14:in `_app_views_site_pages_listings_html_erb__516512219790244679_70294791370080'
+app/controllers/site_pages_controller.rb:15:in `listings'
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:32:22 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.2ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "shifts" ("userid", "starttime", "endtime", "shiftlength", "storeid", "ispublic", "created_at", "updated_at", "department") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["userid", 1], ["starttime", 130], ["endtime", 136], ["shiftlength", 6], ["storeid", 1], ["ispublic", "t"], ["created_at", "2019-09-19 17:33:08.271140"], ["updated_at", "2019-09-19 17:33:08.271140"], ["department", 3]]
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:33:12 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (6.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (bad value for range):
+    19:                   <td><%= shift.starttime %>:00</td>
+    20:               <% when shift.starttime > 23 && shift.starttime < 48 %>
+    21:                   <td><%= shift.starttime - 24 %>:00</td>
+    22:               <% when shift.starttime ==  47...72%>
+    23:                   <td><%= shift.starttime - 48 %>:00</td>
+    24:               <% when shift.starttime ==  71...96%>
+    25:                   <td><%= shift.starttime - 72 %>:00</td>
+  
+app/views/site_pages/listings.html.erb:22:in `block in _app_views_site_pages_listings_html_erb__516512219790244679_70294791036160'
+app/views/site_pages/listings.html.erb:14:in `_app_views_site_pages_listings_html_erb__516512219790244679_70294791036160'
+app/controllers/site_pages_controller.rb:15:in `listings'
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:34:15 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:35:04 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:36:11 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:37:00 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:37:08 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 31ms (Views: 30.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:40:22 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 25ms (Views: 24.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:41:02 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 17:41:21 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 22ms (Views: 21.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 17:41:59 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 25ms (Views: 23.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 17:42:12 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 121.208.17.17 at 2019-09-19 17:42:21 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 17:42:23 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 24ms (Views: 23.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 121.208.17.17 at 2019-09-19 17:42:34 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 22ms (Views: 21.7ms | ActiveRecord: 0.2ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for 131.170.239.18 at 2019-09-25 03:27:11 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (1.6ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 250ms (Views: 234.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/" for 131.170.239.18 at 2019-09-25 03:27:15 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 03:27:23 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 131.170.239.18 at 2019-09-25 03:38:01 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 19ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 04:03:31 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/login" for 131.170.239.18 at 2019-09-25 04:05:21 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 31ms (Views: 29.7ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started POST "/login" for 131.170.239.18 at 2019-09-25 04:06:20 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Tq0U4JOKvGwKgRlZmqyLRFx6tVDucWATjtASzhiX2GAdOTLPtpW55KZxtDPmgPacy2Wvmr84u23pmarDJn7PZA==", "session"=>{"emailaddress"=>"jr@shift.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."emailaddress" = ? LIMIT ?[0m  [["emailaddress", "jr@shift.com"], ["LIMIT", 1]]
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/home
+Completed 302 Found in 15ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/home" for 131.170.239.18 at 2019-09-25 04:06:21 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.3ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.5ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/home" for 131.170.239.18 at 2019-09-25 04:38:36 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ArgumentError (Invalid route name, already in use: 'shift' 
+You may have defined two routes with the same name using the `:as` option, or you may be overriding a route already defined by a resource with the same naming. For the latter, you can restrict the routes created with `resources` as explained here: 
+http://guides.rubyonrails.org/routing.html#restricting-the-routes-created):
+  
+config/routes.rb:16:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/home" for 131.170.239.18 at 2019-09-25 04:39:21 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (12.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 81ms (Views: 79.3ms | ActiveRecord: 1.7ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/home" for 131.170.239.18 at 2019-09-25 04:43:31 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (18.4ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 105ms (Views: 102.4ms | ActiveRecord: 1.8ms)
+
+
+Started DELETE "/logout" for 131.170.239.18 at 2019-09-25 04:43:34 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Ar01xRDqx+qLdABT8e/AUNfiQ1ES63bYgDpLQ6QNfsVjICprDtx4fFf72IH9ArIKX35p6RKM9MsV45BNRoCnqQ=="}
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.170.239.18 at 2019-09-25 04:43:34 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.3ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 04:43:36 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 04:47:10 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 32ms (Views: 31.3ms)
+
+
+Started GET "/login" for 131.170.239.18 at 2019-09-25 04:47:15 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 35ms (Views: 34.1ms)
+
+
+Started POST "/login" for 131.170.239.18 at 2019-09-25 04:47:28 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QKfdI1i3CUhIhhjS4mhQ8W5XP+Ml/Oc+07BGZuGKh1wTM/sMfagMwOR2tbieRC0p+UglKXS1PEC0+f5r32OQWA==", "session"=>{"emailaddress"=>"jr@shift.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."emailaddress" = ? LIMIT ?[0m  [["emailaddress", "jr@shift.com"], ["LIMIT", 1]]
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/home
+Completed 302 Found in 15ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/home" for 131.170.239.18 at 2019-09-25 04:47:28 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (11.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 46ms (Views: 43.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 04:47:30 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 04:47:49 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/ListingVersion/app/views/layouts/application.html.erb:22: unknown regexp option - p
+/home/ec2-user/environment/ListingVersion/app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+            <% else );@output_buffer.safe_...
+            ^):
+  
+app/views/layouts/application.html.erb:22: unknown regexp option - p
+app/views/layouts/application.html.erb:23: syntax error, unexpected '<'
+app/controllers/site_pages_controller.rb:12:in `listings'
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 04:48:04 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 216ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `listing_path' for #<#<Class:0x00007f3399f01fa8>:0x00007f33a00ec038>
+Did you mean?  listings_path
+               newlisting_path):
+    18:             <% if logged_in? %>
+    19:               <li><%= link_to "Profile", profile_path %></li>
+    20:               <li><%= link_to "Log out", logout_path, method: :delete %></li>
+    21:               <li><%= link_to "Create A Shift", listing_path %></li>
+    22:               <p>Logged in as a user</p>
+    23:             <% else %>
+    24:               <li><%= link_to "Log in", login_path %></li>
+  
+app/views/layouts/application.html.erb:21:in `_app_views_layouts_application_html_erb__4371220769703891681_69929852722760'
+app/controllers/site_pages_controller.rb:12:in `listings'
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 04:49:28 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (4.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 29ms (Views: 28.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 04:52:58 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+LoadError (Unable to autoload constant ShiftsController, expected /home/ec2-user/environment/ListingVersion/app/controllers/shifts_controller.rb to define it):
+  
+activesupport (5.1.6) lib/active_support/dependencies.rb:512:in `load_missing_constant'
+activesupport (5.1.6) lib/active_support/dependencies.rb:202:in `const_missing'
+activesupport (5.1.6) lib/active_support/inflector/methods.rb:269:in `const_get'
+activesupport (5.1.6) lib/active_support/inflector/methods.rb:269:in `block in constantize'
+activesupport (5.1.6) lib/active_support/inflector/methods.rb:267:in `each'
+activesupport (5.1.6) lib/active_support/inflector/methods.rb:267:in `inject'
+activesupport (5.1.6) lib/active_support/inflector/methods.rb:267:in `constantize'
+activesupport (5.1.6) lib/active_support/dependencies.rb:583:in `get'
+activesupport (5.1.6) lib/active_support/dependencies.rb:614:in `constantize'
+actionpack (5.1.6) lib/action_dispatch/http/request.rb:85:in `controller_class_for'
+actionpack (5.1.6) lib/action_dispatch/http/parameters.rb:99:in `binary_params_for?'
+actionpack (5.1.6) lib/action_dispatch/http/parameters.rb:90:in `set_binary_encoding'
+actionpack (5.1.6) lib/action_dispatch/http/parameters.rb:67:in `path_parameters='
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:48:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.9.1) lib/puma/configuration.rb:224:in `call'
+puma (3.9.1) lib/puma/server.rb:602:in `handle_request'
+puma (3.9.1) lib/puma/server.rb:435:in `process_client'
+puma (3.9.1) lib/puma/server.rb:299:in `block in run'
+puma (3.9.1) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 04:53:30 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 04:53:33 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (0.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/logout" for 131.170.239.18 at 2019-09-25 04:55:00 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/kvF9As3R+W4yWQkniiMHCRdIcv3bGJEw6m1MCHUv9mf1tpaFQH4c2RGvPaSxf5GrMELc/cL4FdWcG4+w1lmtQ=="}
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 131.170.239.18 at 2019-09-25 04:55:01 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 37ms (Views: 35.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 04:55:02 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 05:16:16 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for 131.170.239.18 at 2019-09-25 05:16:20 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/login" for 131.170.239.18 at 2019-09-25 05:16:33 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hpxh+5HwlhTAkAvFDX+n7Fk5m5Ga9SzifR4OTp9X2qzVCEfUtO+TnGxgpq9xU9o0ziaBW8u895waV7ZDob7NqA==", "session"=>{"emailaddress"=>"jr@shift.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."emailaddress" = ? LIMIT ?[0m  [["emailaddress", "jr@shift.com"], ["LIMIT", 1]]
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/home
+Completed 302 Found in 14ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/home" for 131.170.239.18 at 2019-09-25 05:16:34 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.0ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 29ms (Views: 28.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:16:36 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (170.8ms)
+Completed 500 Internal Server Error in 174ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `listing_post_path' for #<#<Class:0x00007f3399f65b98>:0x00007f3399f73b58>
+Did you mean?  listings_path):
+    1: <div class="row justify-content-md-center mt-5">
+    2:     <div class="col-4">
+    3:         <%= form_tag listing_post_path do |form| %>
+    4:         <div class="form-group">
+    5:             <% if @errors != nil %>
+    6:             <div class="alert alert-danger" role="alert">
+  
+app/views/shifts/new.html.erb:3:in `_app_views_shifts_new_html_erb___566687244428937042_69929801560820'
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:17:07 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (166.7ms)
+Completed 500 Internal Server Error in 169ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `all_stores' for #<#<Class:0x00007f3399f65b98>:0x0000000004bb3600>):
+    12:         </div>
+    13:         <div class="form-group">
+    14:             <label><%= label_tag :store %></label>
+    15:             <%= select_tag "store", options_from_collection_for_select(all_stores, "id", "name"), prompt: "Select store", class: 'form-control',  :onchange => "getDepartments(this.value);" %>
+    16:             <small id="storeHelp" class="form-text text-muted">Select store</small>
+    17:         </div>
+    18:         <div class="form-group">
+  
+app/views/shifts/new.html.erb:15:in `block in _app_views_shifts_new_html_erb___566687244428937042_39677440'
+app/views/shifts/new.html.erb:3:in `_app_views_shifts_new_html_erb___566687244428937042_39677440'
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:19:08 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (170.9ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `all_stores' for #<#<Class:0x00007f3399f65b98>:0x00007f33940850d8>):
+    12:         </div>
+    13:         <div class="form-group">
+    14:             <label><%= label_tag :store %></label>
+    15:             <%= select_tag "store", options_from_collection_for_select(all_stores, "id", "name"), prompt: "Select store", class: 'form-control',  :onchange => "getDepartments(this.value);" %>
+    16:             <small id="storeHelp" class="form-text text-muted">Select store</small>
+    17:         </div>
+    18:         <div class="form-group">
+  
+app/views/shifts/new.html.erb:15:in `block in _app_views_shifts_new_html_erb___566687244428937042_69929751817380'
+app/views/shifts/new.html.erb:3:in `_app_views_shifts_new_html_erb___566687244428937042_69929751817380'
+Started DELETE "/logout" for 131.170.239.18 at 2019-09-25 05:19:12 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VbOew0Ns0CwmzL7HVV19EgykaVouhaTEexC2NWLSlDw0LoFtXVpvuvpDZhVZsA9IhDhD4i7iJtfuyW07gF9NUA=="}
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.170.239.18 at 2019-09-25 05:19:13 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 43ms (Views: 42.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 05:19:14 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (183.9ms)
+Completed 500 Internal Server Error in 187ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `signup_post_path' for #<#<Class:0x00007f339c017030>:0x00007f3394142070>
+Did you mean?  signup_path):
+    1: <div class="row justify-content-md-center mt-5">
+    2:     <div class="col-4">
+    3:         <%= form_tag signup_post_path do |form| %>
+    4:         <div class="form-group">
+    5:             <% if @errors != nil %>
+    6:             <div class="alert alert-danger" role="alert">
+  
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__3692345556312206622_69929752204920'
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 05:20:01 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (196.3ms)
+Completed 500 Internal Server Error in 199ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `all_stores' for #<#<Class:0x00007f339c017030>:0x00007f339957ac28>):
+    27:         </div>
+    28:         <div class="form-group">
+    29:             <label><%= label_tag :store_id %></label>
+    30:             <%= select_tag "store", options_from_collection_for_select(all_stores, "id", "name"), prompt: "Select store", class: 'form-control' %>
+    31:             <small id="storeHelp" class="form-text text-muted">Select your store</small>
+    32:         </div>
+    33:         <button type="submit" class="btn btn-primary">Submit</button>
+  
+app/views/users/new.html.erb:30:in `block in _app_views_users_new_html_erb__3692345556312206622_69929796370540'
+app/views/users/new.html.erb:3:in `_app_views_users_new_html_erb__3692345556312206622_69929796370540'
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 05:26:26 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 28ms (Views: 27.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 05:37:31 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 21.2ms)
+
+
+Started GET "/login" for 131.170.239.18 at 2019-09-25 05:37:37 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.7ms)
+
+
+Started GET "/login" for 131.170.239.18 at 2019-09-25 05:38:07 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.9ms)
+
+
+Started POST "/login" for 131.170.239.18 at 2019-09-25 05:38:16 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F79AHMFsbqVZx4tJSmgfyvdh0LuUWKqDQsvlZjg9QS9EK2Yz5HNrLfU3JiM2RGISYH7KccURcf0lgl1rBtRWKw==", "session"=>{"emailaddress"=>"jr@shift.com", "password"=>"[FILTERED]"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."emailaddress" = ? LIMIT ?[0m  [["emailaddress", "jr@shift.com"], ["LIMIT", 1]]
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/home
+Completed 302 Found in 15ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/home" for 131.170.239.18 at 2019-09-25 05:38:16 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (11.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 47ms (Views: 44.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:38:26 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:3: syntax error, unexpected '<'
+...ppend=  form_tag <newlisting_></newlisting_>path do |form| @...
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:8: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:12: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:13: syntax error, unexpected '<'
+        <div class="form-group">
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:14: syntax error, unexpected '<'
+            <label>'.freeze;@output_buffer...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:16: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:17: syntax error, unexpected '<'
+                <option>Cashier</option>
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:18: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:19: syntax error, unexpected '<'
+                <option>Dairy</option></option>
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:19: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected '<'
+                <option>Deli(Meat)</option>
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:21: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:22: syntax error, unexpected '<'
+            </select>
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:23: unknown regexp options - all
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:24: syntax error, unexpected '<'
+        </div>
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:26: unknown regexp options - labl
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting end
+...ld_tag :start, "", class: 'form-control' );@output_buffer.sa...
+...                           ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:27: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...tart, "", class: 'form-control' );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected '<', expecting end
+            <small id="startHelp" class="f...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected class, expecting end
+...    <small id="startHelp" class="form-text text-muted">Shift...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...rm-text text-muted">Shift Start time</small>
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:29: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:30: syntax error, unexpected '<'
+        <div class="form-group">
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:31: syntax error, unexpected '<'
+            <label>'.freeze;@output_buffer...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:33: unknown regexp options - all
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:34: syntax error, unexpected '<'
+        </div>
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:35: unknown regexp options - btt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:40: syntax error, unexpected '<'
+<script>
+^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:41: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+    function getDepartments(storeId){
+             ^~~~~~~~~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:43: syntax error, unexpected backslash
+            method: \'GET\', 
+                    ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:69: syntax error, unexpected ensure, expecting '}'
+          ensure
+          ^~~~~~):
+  
+app/views/shifts/new.html.erb:3: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:8: unknown regexp options - dv
+app/views/shifts/new.html.erb:12: unknown regexp options - dv
+app/views/shifts/new.html.erb:13: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:14: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:16: unknown regexp options - pt
+app/views/shifts/new.html.erb:17: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:18: unknown regexp options - pt
+app/views/shifts/new.html.erb:19: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:19: unknown regexp options - pt
+app/views/shifts/new.html.erb:20: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:21: unknown regexp options - pt
+app/views/shifts/new.html.erb:22: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:23: unknown regexp options - all
+app/views/shifts/new.html.erb:24: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:26: unknown regexp options - labl
+app/views/shifts/new.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/shifts/new.html.erb:27: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/shifts/new.html.erb:28: syntax error, unexpected '<', expecting end
+app/views/shifts/new.html.erb:28: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:28: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+app/views/shifts/new.html.erb:29: unknown regexp options - dv
+app/views/shifts/new.html.erb:30: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:31: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:33: unknown regexp options - all
+app/views/shifts/new.html.erb:34: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:35: unknown regexp options - btt
+app/views/shifts/new.html.erb:38: unknown regexp options - dv
+app/views/shifts/new.html.erb:40: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:41: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/views/shifts/new.html.erb:43: syntax error, unexpected backslash
+app/views/shifts/new.html.erb:69: syntax error, unexpected ensure, expecting '}'
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:39:27 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:3: syntax error, unexpected '<'
+...ppend=  form_tag <newlisting_></newlisting_>path do |form| @...
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:8: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:12: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:13: syntax error, unexpected '<'
+        <div class="form-group">
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:14: syntax error, unexpected '<'
+            <label>'.freeze;@output_buffer...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:16: unknown regexp options - all
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:17: syntax error, unexpected '<'
+        </div>
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:19: unknown regexp options - labl
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected '<'
+            <select name="department" id="...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+...   <select name="department" id="department" class="form-con...
+...                             ^~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected class, expecting end
+...partment" id="department" class="form-control">
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:21: syntax error, unexpected '<'
+                <option>Select department</opt...
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+...      <option>Select department</option>
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:22: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:23: syntax error, unexpected '<'
+                <option>Stock Handler</option>
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:23: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...          <option>Stock Handler</option>
+...                        ^~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:24: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:24: syntax error, unexpected '<'
+...        <option>Dairy</option></option>
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:25: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:26: syntax error, unexpected '<'
+                <option>Bakery</option>
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:27: unknown regexp options - lct
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected '<'
+            <small id="departmentHelp" cla...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected class, expecting end
+...small id="departmentHelp" class="form-text text-muted">Selec...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+...t text-muted">Select department</small>
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:29: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:30: syntax error, unexpected '<'
+        <div class="form-group">
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:31: syntax error, unexpected '<'
+            <label>'.freeze;@output_buffer...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:33: unknown regexp options - all
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:34: syntax error, unexpected '<'
+        </div>
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:36: unknown regexp options - labl
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting end
+...ield_tag :end, "", class: 'form-control' );@output_buffer.sa...
+...                           ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...:end, "", class: 'form-control' );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: syntax error, unexpected '<', expecting end
+            <small id="endHelp" class="for...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: syntax error, unexpected class, expecting end
+...      <small id="endHelp" class="form-text text-muted">Shift...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...form-text text-muted">Shift End time</small>
+...                            ^~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:39: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:40: syntax error, unexpected '<'
+        <button type="submit" class="b...
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:40: syntax error, unexpected class, expecting end
+...    <button type="submit" class="btn btn-primary">Submit</bu...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:42: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:43: syntax error, unexpected '<'
+</div>
+^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:49: unknown regexp options - dpartt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:49: end pattern with unmatched parenthesis: /div>
+
+<script>
+    function getDepartments(storeId){
+        axios({
+            method: \'GET\', 
+            url: "/m
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ':'
+...': document.querySelector("meta[name=csrf-token]").content
+...                           ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:51: syntax error, unexpected tSTRING_BEG, expecting end
+...elector("meta[name=csrf-token]").content
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:58: syntax error, unexpected backslash
+...         storeDDL.innerHTML = \'\';
+...                              ^):
+  
+app/views/shifts/new.html.erb:3: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:8: unknown regexp options - dv
+app/views/shifts/new.html.erb:12: unknown regexp options - dv
+app/views/shifts/new.html.erb:13: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:14: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:16: unknown regexp options - all
+app/views/shifts/new.html.erb:17: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:19: unknown regexp options - labl
+app/views/shifts/new.html.erb:20: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/shifts/new.html.erb:20: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:21: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/views/shifts/new.html.erb:22: unknown regexp options - pt
+app/views/shifts/new.html.erb:23: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:23: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+app/views/shifts/new.html.erb:24: unknown regexp options - pt
+app/views/shifts/new.html.erb:24: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:25: unknown regexp options - pt
+app/views/shifts/new.html.erb:26: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:27: unknown regexp options - lct
+app/views/shifts/new.html.erb:28: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:28: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/views/shifts/new.html.erb:29: unknown regexp options - dv
+app/views/shifts/new.html.erb:30: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:31: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:33: unknown regexp options - all
+app/views/shifts/new.html.erb:34: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:36: unknown regexp options - labl
+app/views/shifts/new.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/shifts/new.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/shifts/new.html.erb:38: syntax error, unexpected '<', expecting end
+app/views/shifts/new.html.erb:38: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:38: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+app/views/shifts/new.html.erb:39: unknown regexp options - dv
+app/views/shifts/new.html.erb:40: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:40: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:42: unknown regexp options - dv
+app/views/shifts/new.html.erb:43: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:49: unknown regexp options - dpartt
+app/views/shifts/new.html.erb:49: end pattern with unmatched parenthesis: /div>
+app/views/shifts/new.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ':'
+app/views/shifts/new.html.erb:51: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/shifts/new.html.erb:58: syntax error, unexpected backslash
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:39:38 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:3: syntax error, unexpected '<'
+...ppend=  form_tag <newlisting_></newlisting_>path do |form| @...
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:8: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:12: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:13: syntax error, unexpected '<'
+        <div class="form-group">
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:14: syntax error, unexpected '<'
+            <label>'.freeze;@output_buffer...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:16: unknown regexp options - all
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:17: syntax error, unexpected '<'
+        </div>
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:19: unknown regexp options - labl
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected '<'
+            <select name="department" id="...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+...   <select name="department" id="department" class="form-con...
+...                             ^~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected class, expecting end
+...partment" id="department" class="form-control">
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:21: syntax error, unexpected '<'
+                <option>Select department</opt...
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+...      <option>Select department</option>
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:22: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:23: syntax error, unexpected '<'
+                <option>Stock Handler</option>
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:23: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...          <option>Stock Handler</option>
+...                        ^~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:24: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:24: syntax error, unexpected '<'
+...        <option>Dairy</option></option>
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:25: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:26: syntax error, unexpected '<'
+                <option>Bakery</option>
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:27: unknown regexp options - lct
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected '<'
+            <small id="departmentHelp" cla...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected class, expecting end
+...small id="departmentHelp" class="form-text text-muted">Selec...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+...t text-muted">Select department</small>
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:29: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:30: syntax error, unexpected '<'
+        <div class="form-group">
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:31: syntax error, unexpected '<'
+            <label>'.freeze;@output_buffer...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:33: unknown regexp options - all
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:34: syntax error, unexpected '<'
+        </div>
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:36: unknown regexp options - labl
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting end
+...ield_tag :end, "", class: 'form-control' );@output_buffer.sa...
+...                           ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...:end, "", class: 'form-control' );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: syntax error, unexpected '<', expecting end
+            <small id="endHelp" class="for...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: syntax error, unexpected class, expecting end
+...      <small id="endHelp" class="form-text text-muted">Shift...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...form-text text-muted">Shift End time</small>
+...                            ^~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:39: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:40: syntax error, unexpected '<'
+        <button type="submit" class="b...
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:40: syntax error, unexpected class, expecting end
+...    <button type="submit" class="btn btn-primary">Submit</bu...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:42: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:43: syntax error, unexpected '<'
+</div>
+^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:49: unknown regexp options - dpartt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:49: end pattern with unmatched parenthesis: /div>
+
+<script>
+    function getDepartments(storeId){
+        axios({
+            method: \'GET\', 
+            url: "/m
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ':'
+...': document.querySelector("meta[name=csrf-token]").content
+...                           ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:51: syntax error, unexpected tSTRING_BEG, expecting end
+...elector("meta[name=csrf-token]").content
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:58: syntax error, unexpected backslash
+...         storeDDL.innerHTML = \'\';
+...                              ^):
+  
+app/views/shifts/new.html.erb:3: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:8: unknown regexp options - dv
+app/views/shifts/new.html.erb:12: unknown regexp options - dv
+app/views/shifts/new.html.erb:13: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:14: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:16: unknown regexp options - all
+app/views/shifts/new.html.erb:17: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:19: unknown regexp options - labl
+app/views/shifts/new.html.erb:20: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/shifts/new.html.erb:20: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:21: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/views/shifts/new.html.erb:22: unknown regexp options - pt
+app/views/shifts/new.html.erb:23: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:23: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+app/views/shifts/new.html.erb:24: unknown regexp options - pt
+app/views/shifts/new.html.erb:24: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:25: unknown regexp options - pt
+app/views/shifts/new.html.erb:26: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:27: unknown regexp options - lct
+app/views/shifts/new.html.erb:28: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:28: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/views/shifts/new.html.erb:29: unknown regexp options - dv
+app/views/shifts/new.html.erb:30: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:31: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:33: unknown regexp options - all
+app/views/shifts/new.html.erb:34: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:36: unknown regexp options - labl
+app/views/shifts/new.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/shifts/new.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/shifts/new.html.erb:38: syntax error, unexpected '<', expecting end
+app/views/shifts/new.html.erb:38: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:38: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+app/views/shifts/new.html.erb:39: unknown regexp options - dv
+app/views/shifts/new.html.erb:40: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:40: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:42: unknown regexp options - dv
+app/views/shifts/new.html.erb:43: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:49: unknown regexp options - dpartt
+app/views/shifts/new.html.erb:49: end pattern with unmatched parenthesis: /div>
+app/views/shifts/new.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ':'
+app/views/shifts/new.html.erb:51: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/shifts/new.html.erb:58: syntax error, unexpected backslash
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:39:50 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:3: syntax error, unexpected '<'
+...ppend=  form_tag <newlisting_></newlisting_>path do |form| @...
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:8: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:12: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:13: syntax error, unexpected '<'
+        <div class="form-group">
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:14: syntax error, unexpected '<'
+            <label>'.freeze;@output_buffer...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:16: unknown regexp options - all
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:17: syntax error, unexpected '<'
+        </div>
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:19: unknown regexp options - labl
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected '<'
+            <select name="department" id="...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+...   <select name="department" id="department" class="form-con...
+...                             ^~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:20: syntax error, unexpected class, expecting end
+...partment" id="department" class="form-control">
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:21: syntax error, unexpected '<'
+                <option>Select department</opt...
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+...      <option>Select department</option>
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:22: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:23: syntax error, unexpected '<'
+                <option>Stock Handler</option>
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:23: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...          <option>Stock Handler</option>
+...                        ^~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:24: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:24: syntax error, unexpected '<'
+...        <option>Dairy</option></option>
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:25: unknown regexp options - pt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:26: syntax error, unexpected '<'
+                <option>Bakery</option>
+                ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:27: unknown regexp options - lct
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected '<'
+            <small id="departmentHelp" cla...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected class, expecting end
+...small id="departmentHelp" class="form-text text-muted">Selec...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+...t text-muted">Select department</small>
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:29: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:30: syntax error, unexpected '<'
+        <div class="form-group">
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:31: syntax error, unexpected '<'
+            <label>'.freeze;@output_buffer...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:33: unknown regexp options - all
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:34: syntax error, unexpected '<'
+        </div>
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:36: unknown regexp options - labl
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting end
+...ield_tag :end, "", class: 'form-control' );@output_buffer.sa...
+...                           ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...:end, "", class: 'form-control' );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: syntax error, unexpected '<', expecting end
+            <small id="endHelp" class="for...
+            ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: syntax error, unexpected class, expecting end
+...      <small id="endHelp" class="form-text text-muted">Shift...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:38: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+...form-text text-muted">Shift End time</small>
+...                            ^~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:39: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:40: syntax error, unexpected '<'
+        <button type="submit" class="b...
+        ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:40: syntax error, unexpected class, expecting end
+...    <button type="submit" class="btn btn-primary">Submit</bu...
+...                          ^~~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:42: unknown regexp options - dv
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:43: syntax error, unexpected '<'
+</div>
+^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:49: unknown regexp options - dpartt
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:49: end pattern with unmatched parenthesis: /div>
+
+<script>
+    function getDepartments(storeId){
+        axios({
+            method: \'GET\', 
+            url: "/m
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ':'
+...': document.querySelector("meta[name=csrf-token]").content
+...                           ^~~~
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:51: syntax error, unexpected tSTRING_BEG, expecting end
+...elector("meta[name=csrf-token]").content
+...                              ^
+/home/ec2-user/environment/ListingVersion/app/views/shifts/new.html.erb:58: syntax error, unexpected backslash
+...         storeDDL.innerHTML = \'\';
+...                              ^):
+  
+app/views/shifts/new.html.erb:3: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:8: unknown regexp options - dv
+app/views/shifts/new.html.erb:12: unknown regexp options - dv
+app/views/shifts/new.html.erb:13: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:14: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:16: unknown regexp options - all
+app/views/shifts/new.html.erb:17: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:19: unknown regexp options - labl
+app/views/shifts/new.html.erb:20: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:20: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/shifts/new.html.erb:20: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:21: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:21: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/views/shifts/new.html.erb:22: unknown regexp options - pt
+app/views/shifts/new.html.erb:23: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:23: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+app/views/shifts/new.html.erb:24: unknown regexp options - pt
+app/views/shifts/new.html.erb:24: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:25: unknown regexp options - pt
+app/views/shifts/new.html.erb:26: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:27: unknown regexp options - lct
+app/views/shifts/new.html.erb:28: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:28: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/views/shifts/new.html.erb:29: unknown regexp options - dv
+app/views/shifts/new.html.erb:30: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:31: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:33: unknown regexp options - all
+app/views/shifts/new.html.erb:34: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:36: unknown regexp options - labl
+app/views/shifts/new.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting end
+app/views/shifts/new.html.erb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/shifts/new.html.erb:38: syntax error, unexpected '<', expecting end
+app/views/shifts/new.html.erb:38: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:38: syntax error, unexpected tCONSTANT, expecting do or '{' or '('
+app/views/shifts/new.html.erb:39: unknown regexp options - dv
+app/views/shifts/new.html.erb:40: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:40: syntax error, unexpected class, expecting end
+app/views/shifts/new.html.erb:42: unknown regexp options - dv
+app/views/shifts/new.html.erb:43: syntax error, unexpected '<'
+app/views/shifts/new.html.erb:49: unknown regexp options - dpartt
+app/views/shifts/new.html.erb:49: end pattern with unmatched parenthesis: /div>
+app/views/shifts/new.html.erb:51: syntax error, unexpected tIDENTIFIER, expecting ':'
+app/views/shifts/new.html.erb:51: syntax error, unexpected tSTRING_BEG, expecting end
+app/views/shifts/new.html.erb:58: syntax error, unexpected backslash
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:41:53 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (158.8ms)
+Completed 500 Internal Server Error in 162ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `all_stores' for #<#<Class:0x00007f33993ee300>:0x00007f3398d07780>):
+    12:         </div>
+    13:         <div class="form-group">
+    14:             <label><%= label_tag :store %></label>
+    15:             <%= select_tag "store", options_from_collection_for_select(all_stores, "id", "name"), prompt: "Select store", class: 'form-control',  :onchange => "getDepartments(this.value);" %>
+    16:             <small id="storeHelp" class="form-text text-muted">Select store</small>
+    17:         </div>
+    18:         <div class="form-group">
+  
+app/views/shifts/new.html.erb:15:in `block in _app_views_shifts_new_html_erb___566687244428937042_69929791912700'
+app/views/shifts/new.html.erb:3:in `_app_views_shifts_new_html_erb___566687244428937042_69929791912700'
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:42:05 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mShift Load (0.3ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 05:58:22 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.1ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 23ms (Views: 21.7ms | ActiveRecord: 0.1ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "shifts" ("userid", "starttime", "endtime", "shiftlength", "storeid", "ispublic", "created_at", "updated_at", "department") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["userid", 1], ["starttime", 15], ["endtime", 20], ["shiftlength", 5], ["storeid", 1], ["ispublic", "f"], ["created_at", "2019-09-25 06:03:41.308720"], ["updated_at", "2019-09-25 06:03:41.308720"], ["department", 3]]
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 06:12:04 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 06:12:32 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 23ms (Views: 21.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 06:13:16 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (2.0ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 06:14:41 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 34ms (Views: 33.5ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/newlisting" for 131.170.239.18 at 2019-09-25 06:14:58 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vldFQvaUmR/PHtJD6USA6gzEIQr8KVBTTnsNkqTYQuffylrs6KImiRORCpHlqfKwhFgLsvxO0kDbotacRlWbiw==", "starttime"=>"1", "endtime"=>"2", "shiftlength"=>"1", "storeid"=>"5", "department"=>"Deli (Meat)"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "shifts" ("starttime", "endtime", "shiftlength", "storeid", "ispublic", "created_at", "updated_at", "department") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["starttime", 1], ["endtime", 2], ["shiftlength", 1], ["storeid", 5], ["ispublic", "t"], ["created_at", "2019-09-25 06:14:58.256624"], ["updated_at", "2019-09-25 06:14:58.256624"], ["department", 0]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/listings
+Completed 302 Found in 21ms (ActiveRecord: 6.8ms)
+
+
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 06:14:58 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 06:15:59 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 36.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 06:16:56 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 23ms (Views: 21.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 06:17:41 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.9ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/newlisting" for 131.170.239.18 at 2019-09-25 06:17:53 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"t9QGIRcmCSy3w8adYswxTqB1Ln19o+93rcvVI2F1KYjWSRmPCRC2umtMHk9uIUMUKOkExX3EbWQ4Eg4tg/jw5A==", "starttime"=>"5", "endtime"=>"10", "shiftlength"=>"5", "storeid"=>"7", "department"=>"Deli (Meat)"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.6ms)[0m  [1m[32mINSERT INTO "shifts" ("starttime", "endtime", "shiftlength", "storeid", "ispublic", "created_at", "updated_at", "department") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["starttime", 5], ["endtime", 10], ["shiftlength", 5], ["storeid", 7], ["ispublic", "t"], ["created_at", "2019-09-25 06:17:53.633870"], ["updated_at", "2019-09-25 06:17:53.633870"], ["department", 0]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/listings
+Completed 302 Found in 11ms (ActiveRecord: 7.3ms)
+
+
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 06:17:53 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (5.6ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 38ms (Views: 36.5ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[31mDELETE FROM "shifts" WHERE "shifts"."id" = ?[0m  [["id", 1]]
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[31mDELETE FROM "shifts" WHERE "shifts"."id" = ?[0m  [["id", 2]]
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[31mDELETE FROM "shifts" WHERE "shifts"."id" = ?[0m  [["id", 3]]
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" WHERE "shifts"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.7ms)[0m  [1m[31mDELETE FROM "shifts" WHERE "shifts"."id" = ?[0m  [["id", 11]]
+  [1m[35m (6.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35mSQL (4.8ms)[0m  [1m[31mDELETE FROM "shifts"[0m
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT  "shifts".* FROM "shifts" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 06:23:48 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/newlisting" for 131.170.239.18 at 2019-09-25 06:23:51 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#new as HTML
+  Rendering shifts/new.html.erb within layouts/application
+  Rendered shifts/new.html.erb within layouts/application (1.3ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 22ms (Views: 21.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/newlisting" for 131.170.239.18 at 2019-09-25 06:24:04 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ShiftsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DuIWYnfOqFHOYUpHUsU6eL0OvM5ddbRR1SJapntAj/a39axsXCs15uuIPb0fjzxKA6gXvMI18UqWLe5vDNf8Jw==", "starttime"=>"5", "endtime"=>"10", "shiftlength"=>"5", "storeid"=>"7", "department"=>"4"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "shifts" ("starttime", "endtime", "shiftlength", "storeid", "ispublic", "created_at", "updated_at", "department") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["starttime", 5], ["endtime", 10], ["shiftlength", 5], ["storeid", 7], ["ispublic", "t"], ["created_at", "2019-09-25 06:24:04.055679"], ["updated_at", "2019-09-25 06:24:04.055679"], ["department", 4]]
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/listings
+Completed 302 Found in 11ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 06:24:04 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.3ms)
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/listings" for 131.170.239.18 at 2019-09-25 06:26:08 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#listings as HTML
+  Rendering site_pages/listings.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/listings.html.erb within layouts/application (3.7ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/logout" for 131.170.239.18 at 2019-09-25 06:26:11 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lEniNx8c9BOZgAmjUZSezn6nDJJ7sLWZTv3oF5IKVNv11P2ZASpLhUUP0XFdeeyU9jsmKnvXN4rbJDMZcIeNtw=="}
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 131.170.239.18 at 2019-09-25 06:26:11 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 06:26:15 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for 131.170.239.18 at 2019-09-25 06:26:43 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wxKKFG3npuGL9x1ij7tjMMxYY/sMDyfCG9JF6paijHJcViwFNZNpIpzm+/27UhYdLVO8FDdf8nDyfdQM9XAMnw==", "firstname"=>"Patrick", "lastname"=>"Tria", "password"=>"[FILTERED]", "phonenumber"=>"0411111111", "emailaddress"=>"Ptria@email.com"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 29ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 06:27:42 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 21.1ms)
+
+
+Started POST "/signup" for 131.170.239.18 at 2019-09-25 06:28:02 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SwduIe6dLKYp7bdpdRZtZUodHO58ljCw/g+30nySZTsqmnGP8KuTMPVib7t5+x8/woE2VnzxsqNr1mzcnh+8Vw==", "firstname"=>"Patrick", "lastname"=>"Tria", "password"=>"[FILTERED]", "phonenumber"=>"0411111111", "emailaddress"=>"Ptria@email.com"}
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `active=' for #<User:0x00007f3399f554a0>):
+  
+app/controllers/users_controller.rb:19:in `create'
+Started POST "/signup" for 131.170.239.18 at 2019-09-25 06:28:33 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SwduIe6dLKYp7bdpdRZtZUodHO58ljCw/g+30nySZTsqmnGP8KuTMPVib7t5+x8/woE2VnzxsqNr1mzcnh+8Vw==", "firstname"=>"Patrick", "lastname"=>"Tria", "password"=>"[FILTERED]", "phonenumber"=>"0411111111", "emailaddress"=>"Ptria@email.com"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 33ms (Views: 20.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 06:29:25 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 20.7ms)
+
+
+Started POST "/signup" for 131.170.239.18 at 2019-09-25 06:29:41 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u58An8HwRVZh3NoN4eSu226Gr6dCyPL6aJUguy8p9MHaAh8x38b6wL1TAt/tCdyB5hqFH0KvcOn9TPu1zaQtrQ==", "firstname"=>"Patrick", "lastname"=>"Tria", "password"=>"[FILTERED]", "phonenumber"=>"0411111111", "emailaddress"=>"Ptria@email.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "password", "phonenumber", "emailaddress", "ismanager", "isactive", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Patrick"], ["lastname", "Tria"], ["password", "password"], ["phonenumber", "0411111111"], ["emailaddress", "Ptria@email.com"], ["ismanager", "t"], ["isactive", "t"], ["created_at", "2019-09-25 06:29:41.495420"], ["updated_at", "2019-09-25 06:29:41.495420"]]
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 24ms (ActiveRecord: 7.9ms)
+
+
+Started GET "/" for 131.170.239.18 at 2019-09-25 06:29:41 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (11.1ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+Completed 200 OK in 34ms (Views: 31.5ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started DELETE "/logout" for 131.170.239.18 at 2019-09-25 06:31:04 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"aIpcSZzI6wpwT6LUemAza1u4ATEILmSO5k3dCn6k+mIJF0Pngv5UnKzAegZ2jUEx0yQriQhJ5p1zlAYEnCkjDg=="}
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 131.170.239.18 at 2019-09-25 06:31:06 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 06:31:08 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for 131.170.239.18 at 2019-09-25 06:31:32 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LKp3TKfNJR7HIFkuIO6vc9/OhB009fg23NX/bm4I2I2z7tFd/7nq3dAxv7EUB9pePsVb8g+lLYQ1em6IDdpYYA==", "firstname"=>"Alexander", "lastname"=>"Priestley", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"AlexEmail@Email.com"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 45ms (Views: 32.9ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/signup" for 131.170.239.18 at 2019-09-25 06:33:29 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uTboORXiTFWP5MZTHBAEnrElA+vml7dndNoVNRQAO17Yq/eXC9Tzw1NrHoEQ/XbEObkpU+bwNXThA8479o3iMg==", "firstname"=>"Alexander", "lastname"=>"Priestley", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"AlexEmail@Email.com"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for 131.170.239.18 at 2019-09-25 06:34:14 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jbkm9Ov+oIOqmk9bnZVVN3psNTVd9NDDoUFW+gjU1szsJDla9cgfFXYVl4mReCdt8vAfjV2TUtA0mI306lkPoA==", "firstname"=>"Alexander", "lastname"=>"Priestley", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"AlexEmail@Email.com"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 16ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 131.170.239.18 at 2019-09-25 06:34:15 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.7ms)
+
+
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/signup" for 131.170.239.18 at 2019-09-25 06:35:14 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 23ms (Views: 21.6ms)
+
+
+Started POST "/signup" for 131.170.239.18 at 2019-09-25 06:35:30 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OFtHlhnCIyjvzbu6Vmr/WVDkUGZvTtATVB4rQwMpAFSnH+GHQbbs6/jcXSVig4p0se+PiVQeBaG9sbqlYPuAuQ==", "firstname"=>"Alexander", "lastname"=>"Priestley", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"AlexEmail@Email.com"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "password", "phonenumber", "emailaddress", "ismanager", "isactive", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Alexander"], ["lastname", "Priestley"], ["password", "Password"], ["phonenumber", "0412345678"], ["emailaddress", "AlexEmail@Email.com"], ["ismanager", "t"], ["isactive", "t"], ["created_at", "2019-09-25 06:35:30.647232"], ["updated_at", "2019-09-25 06:35:30.647232"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 24ms (ActiveRecord: 7.7ms)
+
+
+Started GET "/" for 131.170.239.18 at 2019-09-25 06:35:30 +0000
+Cannot render console from 131.170.239.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (12.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for 121.208.17.17 at 2019-09-27 14:33:03 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.5ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 253ms (Views: 240.5ms | ActiveRecord: 2.1ms)
+
+
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for 121.208.17.17 at 2019-09-27 14:42:56 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/signup" for 121.208.17.17 at 2019-09-27 14:42:59 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for 121.208.17.17 at 2019-09-27 14:43:23 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DKpIb2zT4R/8mJb0BBR0ufj6hqFtBrIZZ85CukTBI8AzdfhnjrIayaqMomyTlINK6Y6eJVd8mbNu9k6tZK4aVg==", "firstname"=>"Alexander", "lastname"=>"Priestley", "password"=>"[FILTERED]", "phonenumber"=>"0412343421", "emailaddress"=>"Email@Email.email"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "password", "phonenumber", "emailaddress", "ismanager", "isactive", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Alexander"], ["lastname", "Priestley"], ["password", "Password"], ["phonenumber", "0412343421"], ["emailaddress", "Email@Email.email"], ["ismanager", "t"], ["isactive", "t"], ["created_at", "2019-09-27 14:43:23.210807"], ["updated_at", "2019-09-27 14:43:23.210807"]]
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 32ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-27 14:43:23 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 121.208.17.17 at 2019-09-27 15:33:10 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (12.2ms)
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 1.6ms)
+
+
+Started DELETE "/logout" for 121.208.17.17 at 2019-09-27 15:33:15 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gadqrHKYglK8Uz6cWlZWubnGmhcsgaWTr2fTFFnmryzk2B2mtsS4nwfND8C167LUfPbICH2JJnKjjMkS0MVdBQ=="}
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-27 15:33:15 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/signup" for 121.208.17.17 at 2019-09-27 15:33:17 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 30ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for 121.208.17.17 at 2019-09-27 15:33:35 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ok6MySdCbhIo7NonlE+mobtUkoKQ3SPAXMW79y/y608FkTzBxSOVxH747r8Dz1FSqiCKBqqnCGpV/bfgD53S2Q==", "firstname"=>"Fred", "lastname"=>"Notamanager", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"Fred@NotManager.email"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "password", "phonenumber", "emailaddress", "ismanager", "isactive", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Fred"], ["lastname", "Notamanager"], ["password", "Password"], ["phonenumber", "0412345678"], ["emailaddress", "Fred@NotManager.email"], ["ismanager", "t"], ["isactive", "t"], ["created_at", "2019-09-27 15:33:35.805572"], ["updated_at", "2019-09-27 15:33:35.805572"]]
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 14ms (ActiveRecord: 6.5ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=Fred):
+  
+app/controllers/users_controller.rb:23:in `create'
+Started POST "/signup" for 121.208.17.17 at 2019-09-27 15:56:07 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ok6MySdCbhIo7NonlE+mobtUkoKQ3SPAXMW79y/y608FkTzBxSOVxH747r8Dz1FSqiCKBqqnCGpV/bfgD53S2Q==", "firstname"=>"Fred", "lastname"=>"Notamanager", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"Fred@NotManager.email"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "password", "phonenumber", "emailaddress", "ismanager", "isactive", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Fred"], ["lastname", "Notamanager"], ["password", "Password"], ["phonenumber", "0412345678"], ["emailaddress", "Fred@NotManager.email"], ["ismanager", "t"], ["isactive", "t"], ["created_at", "2019-09-27 15:56:07.075446"], ["updated_at", "2019-09-27 15:56:07.075446"]]
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+Completed 404 Not Found in 30ms (ActiveRecord: 8.2ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find User with 'id'=Fred):
+  
+app/controllers/users_controller.rb:23:in `create'
+Started POST "/signup" for 121.208.17.17 at 2019-09-27 15:56:35 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ok6MySdCbhIo7NonlE+mobtUkoKQ3SPAXMW79y/y608FkTzBxSOVxH747r8Dz1FSqiCKBqqnCGpV/bfgD53S2Q==", "firstname"=>"Fred", "lastname"=>"Notamanager", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"Fred@NotManager.email"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "password", "phonenumber", "emailaddress", "ismanager", "isactive", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Fred"], ["lastname", "Notamanager"], ["password", "Password"], ["phonenumber", "0412345678"], ["emailaddress", "Fred@NotManager.email"], ["ismanager", "t"], ["isactive", "t"], ["created_at", "2019-09-27 15:56:35.626146"], ["updated_at", "2019-09-27 15:56:35.626146"]]
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."firstname" = ? LIMIT ?[0m  [["firstname", "Fred"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 25ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-27 15:56:35 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (23.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+Completed 200 OK in 46ms (Views: 44.0ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+Started DELETE "/logout" for 121.208.17.17 at 2019-09-27 15:57:08 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+Z8LbXEeTWlMmgs6jp+qWQLqeLakTcV5b3NdSc32U4Kc4HxntUJ3pPcEOmZhIk40x9oqqfVFRphjmEdPRNWhqw=="}
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 1ms
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-27 15:57:08 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/signup" for 121.208.17.17 at 2019-09-27 15:57:10 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/signup" for 121.208.17.17 at 2019-09-27 15:57:24 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"AhiSAFuvpVUZgcb91EDsJS+SRwXhKFYYER2MweRkEdQ9xyIIuc5eg0+V8mVDwBvWPuZfgdtSfbIYJYDWxAsoQg==", "firstname"=>"A", "lastname"=>"B", "password"=>"[FILTERED]", "phonenumber"=>"D", "emailaddress"=>"E"}
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 33ms (Views: 20.7ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/signup" for 121.208.17.17 at 2019-09-27 15:57:38 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XrrDEtnHQsb7xo8PslQmJq85Z3xefPknharehjE/wlc7xbQYHZt4C0BYvlNd6cJLagk1Yw90esaJQcSAuBwwfg==", "firstname"=>"A", "lastname"=>"B", "password"=>"[FILTERED]", "phonenumber"=>"D", "emailaddress"=>"E@Email.email"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.8ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "password", "phonenumber", "emailaddress", "ismanager", "isactive", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "A"], ["lastname", "B"], ["password", "C"], ["phonenumber", "D"], ["emailaddress", "E@Email.email"], ["ismanager", "t"], ["isactive", "t"], ["created_at", "2019-09-27 15:57:38.131204"], ["updated_at", "2019-09-27 15:57:38.131204"]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."firstname" = ? LIMIT ?[0m  [["firstname", "A"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 14ms (ActiveRecord: 7.6ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-27 15:57:38 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.2ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+DEPRECATION WARNING: ActiveSupport.halt_callback_chains_on_return_false= is deprecated and will be removed in Rails 5.2. (called from <top (required)> at /home/ec2-user/environment/ListingVersion/config/initializers/new_framework_defaults.rb:21)
+Started GET "/" for 121.208.17.17 at 2019-09-28 08:38:07 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.6ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (19.1ms)
+Completed 200 OK in 270ms (Views: 257.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-28 08:38:08 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.1ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 25ms (Views: 23.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-28 08:38:18 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-28 08:38:18 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 23ms (Views: 22.4ms | ActiveRecord: 0.2ms)
+
+
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Started GET "/signup" for 121.208.17.17 at 2019-09-28 09:34:03 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 42ms (Views: 41.0ms)
+
+
+Started POST "/signup" for 121.208.17.17 at 2019-09-28 09:34:23 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z9RpgdYvH2PskE0WIA07fs4d622CTUuUboB2l2/LLtO5ObAn92XtPB7jbu5yLpo1ARmYhUoNCDo6Bc+b16HLug==", "firstname"=>"Fred", "lastname"=>"TheEmployee", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"Fred@Employee.email"}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+ArgumentError (You need to supply at least one validation):
+  
+app/models/user.rb:11:in `<class:User>'
+app/models/user.rb:1:in `<top (required)>'
+app/controllers/users_controller.rb:12:in `create'
+Started POST "/signup" for 121.208.17.17 at 2019-09-28 09:35:28 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z9RpgdYvH2PskE0WIA07fs4d622CTUuUboB2l2/LLtO5ObAn92XtPB7jbu5yLpo1ARmYhUoNCDo6Bc+b16HLug==", "firstname"=>"Fred", "lastname"=>"TheEmployee", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"Fred@Employee.email"}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `active=' for #<User:0x00007f16e9fb8090>):
+  
+app/controllers/users_controller.rb:18:in `create'
+Started POST "/signup" for 121.208.17.17 at 2019-09-28 09:35:46 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z9RpgdYvH2PskE0WIA07fs4d622CTUuUboB2l2/LLtO5ObAn92XtPB7jbu5yLpo1ARmYhUoNCDo6Bc+b16HLug==", "firstname"=>"Fred", "lastname"=>"TheEmployee", "password"=>"[FILTERED]", "phonenumber"=>"0412345678", "emailaddress"=>"Fred@Employee.email"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "users" ("firstname", "lastname", "password", "phonenumber", "emailaddress", "ismanager", "isactive", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["firstname", "Fred"], ["lastname", "TheEmployee"], ["password", "Password"], ["phonenumber", "0412345678"], ["emailaddress", "Fred@Employee.email"], ["ismanager", "f"], ["isactive", "t"], ["created_at", "2019-09-28 09:35:46.159161"], ["updated_at", "2019-09-28 09:35:46.159161"]]
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to https://48f5094072814212ac2b8bed64644e27.vfs.cloud9.us-east-2.amazonaws.com/
+Completed 302 Found in 23ms (ActiveRecord: 8.2ms)
+
+
+Started GET "/" for 121.208.17.17 at 2019-09-28 09:35:46 +0000
+Cannot render console from 121.208.17.17! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SitePagesController#home as HTML
+  Rendering site_pages/home.html.erb within layouts/application
+  [1m[36mShift Load (0.2ms)[0m  [1m[34mSELECT "shifts".* FROM "shifts"[0m
+  Rendered site_pages/home.html.erb within layouts/application (11.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT ?[0m  [["LIMIT", 11]]

@@ -18,9 +18,11 @@
             <% if logged_in? %>
               <li><%= link_to "Profile", profile_path %></li>
               <li><%= link_to "Log out", logout_path, method: :delete %></li>
+              <li><%= link_to "Create A Shift", newlisting_path %></li>
               <p>Logged in as a user</p>
             <% else %>
               <li><%= link_to "Log in", login_path %></li>
+              <li><%= link_to "Sign up", signup_path %></li>
               <p>Not logged in</p>
             <% end %>
           </ul>

@@ -1,24 +1,78 @@
 <h1>SitePages#home</h1>
-<p>This will be the user's personal page, containing their listings and profile</p>
+<p>This will be the user's personal page, containing their listings and access to their profile</p>
 
 <table>
     <tr>
-        <th>User Id</th>
+        <th>Day Of The Week</th>
         <th>Start Time</th>
         <th>End Time</th>
         <th>Shift Length</th>
         <th>Department</th>
         <th>Store Id</th>
-        <th>Choose A Shift</th>
+        <th>Post A Shift</th>
     </tr>
     <% @shifts.each do |shift| %>
         <% if shift.ispublic == false %>
             <tr>
-                <td><%= shift.userid %></td>
-                <td><%= shift.starttime %></td>
-                <td><%= shift.endtime %></td>
-                <td><%= shift.shiftlength %></td>
-                <td><%= shift.department %></td>
+              <% case %>
+              <% when shift.starttime < 24 %>
+                  <td>Sunday</td>
+                  <td><%= shift.starttime %>:00</td>
+              <% when shift.starttime > 23 && shift.starttime < 48 %>
+                  <td>Monday</td>
+                  <td><%= shift.starttime - 24 %>:00</td>
+              <% when shift.starttime > 47 && shift.starttime < 72 %>
+                  <td>Tuesday</td>
+                  <td><%= shift.starttime - 48 %>:00</td>
+              <% when shift.starttime > 71 && shift.starttime < 96 %>
+                  <td>Wednesday</td>
+                  <td><%= shift.starttime - 72 %>:00</td>
+              <% when shift.starttime > 95 && shift.starttime < 120 %>
+                  <td>Thursday</td>
+                  <td><%= shift.starttime - 96 %>:00</td>
+              <% when shift.starttime > 119 && shift.starttime < 144 %>
+                  <td>Friday</td>
+                  <td><%= shift.starttime - 120 %>:00</td>
+              <% when shift.starttime > 143 && shift.starttime < 168 %>
+                  <td>Saturday</td>
+                  <td><%= shift.starttime - 144 %>:00</td>
+              <% end %>
+              <% case %>
+              <% when shift.endtime < 24 %>
+                  <td><%= shift.endtime %>:00</td>
+              <% when shift.endtime > 23 && shift.endtime < 48 %>
+                  <td><%= shift.endtime - 24 %>:00</td>
+              <% when shift.endtime > 47 && shift.endtime < 72 %>
+                  <td><%= shift.endtime - 48 %>:00</td>
+              <% when shift.endtime > 71 && shift.endtime < 96 %>
+                  <td><%= shift.endtime - 72 %>:00</td>
+              <% when shift.endtime > 95 && shift.endtime < 120 %>
+                  <td><%= shift.endtime - 96 %>:00</td>
+              <% when shift.endtime > 119 && shift.endtime < 144 %>
+                  <td><%= shift.endtime - 120 %>:00</td>
+              <% when shift.endtime > 143 && shift.endtime < 168 %>
+                  <td><%= shift.endtime - 144 %>:00</td>
+              <% end %>
+                <td><%= shift.shiftlength %> hour(s)</td>
+                <% if shift.department %>
+                  <% if shift.department == 1 %>
+                    <td>Cashier</td>
+                  <% end%>
+                  <% if shift.department == 2 %>
+                    <td>Stock Handler</td>
+                  <% end%>
+                  <% if shift.department == 3 %>
+                    <td>Dairy</td>
+                  <% end%>
+                  <% if shift.department == 4 %>
+                    <td>Deli</td>
+                  <% end%>
+                  <% if shift.department == 5 %>
+                    <td>Bakery</td>
+                  <% end %>
+                <% else %>
+                  <td>No Department</td>
+                <% end%>
                 <td><%= shift.storeid %></td>
                 <td><%= link_to "Select", {:controller => "site_pages",
                                    :action => "movePublic",
