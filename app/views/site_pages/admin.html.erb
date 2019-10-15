@@ -1,0 +1,36 @@
+<% if logged_in? %>
+  <% if @theUser.isadmin == true %>
+    <table>
+        <tr>
+            <th>User ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Phone Number</th>
+            <th>Email Address</th>
+            <th>Store ID</th>
+            <th>Manager Status</th>
+            <th>Active Status</th>
+        </tr>
+        <% @users.each do |user| %>
+          <tr>
+            <td><%= user.id %></td>
+            <td><%= user.firstname %></td>
+            <td><%= user.lastname %></td>
+            <td><%= user.phonenumber %></td>
+            <td><%= user.emailaddress %></td>
+            <td><%= user.storeid %></td>
+            <td><%= user.ismanager %></td>
+            <td><%= user.isactive %> <%= link_to "Change", {:controller => "site_pages",
+                                           :action => "changeActivity",
+                                           :id => user.id,
+                                           :isactive => user.isactive}, method: "post",
+                                        class: "btn btn-sm btn-success" %></td>
+          </tr>
+        <% end %>
+    </table>
+  <% else %>
+    <p>Nice try mate, come back when you're an admin.</p>
+  <% end %>
+<% else %>    
+  <p>You're not even a user, let alone an admin.</p>
+<% end %>

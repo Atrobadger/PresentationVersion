@@ -1,4 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<title>Profile</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <nav>
+      <ul>
+        <% if logged_in? %>
+        <li class="last"><a><%= link_to "Log out", logout_path, method: :delete %></li>
+        <% else %>
+        <li><%= link_to "Log in", login_path %></li>
+              <p>Not logged in</p>
+        <% end %>
+      </ul>
+    </nav>
+  </header>
+</div>
+<div class="wrapper row2">
+  <div id="container" class="clear">
+
+    <!-- content body -->
+    <section id="shout">
+      
+      <h3><a><%= link_to "return to main page",   home_path %></a></h3>
+
+    </section>
+    <!-- main content -->
+    <section id="services" class="clear">
+
+      <!-- article 3 -->
+      <h1>Create a shift: </h1>
+      <article class="three_third center lastbox">
 <div class="row justify-content-md-center mt-5">
+<p>Note: In the department entry, 1 is Cashier, 2 is Stock Handler, 3 is Dairy, 4 is Deli, 5 is Bakery</p>
     <div class="col-4">
         <%= form_tag newlisting_path do |form| %>
         <div class="form-group">
@@ -26,14 +65,9 @@
             <small id="shiftHelp" class="form-text text-muted">Shift length (end - start)</small>
         </div>
         <div class="form-group">
-            <label><%= label_tag :storeid %></label>
-            <%= text_field_tag :storeid, "", class: 'form-control' %>
-            <small id="storeHelp" class="form-text text-muted">Store id</small>
-        </div>
-        <div class="form-group">
             <label><%= label_tag :department %></label>
             <select name="department" id="department" class="form-control">
-                <option>1</option></option>
+                <option>1</option>
                 <option>2</option>
                 <option>3</option>
                 <option>4</option>
@@ -74,3 +108,17 @@
         });
     }
 </script>
+      </article>
+
+    </section>
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- / content body -->
+  </div>
+</div>
+<!-- footer -->
+
+</body>
+</html>

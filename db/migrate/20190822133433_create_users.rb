@@ -6,6 +6,7 @@ class CreateUsers < ActiveRecord::Migration[5.1]
       t.string :password
       t.string :phonenumber
       t.string :emailaddress
+      t.integer :storeid
       t.boolean :ismanager
       t.boolean :isactive
 

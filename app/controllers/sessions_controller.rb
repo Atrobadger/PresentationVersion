@@ -4,9 +4,14 @@ class SessionsController < ApplicationController
   
   def create
     user = User.find_by(emailaddress: params[:session][:emailaddress])
-    if user 
-      log_in user
-      redirect_to home_path
+    if user
+      if user.isactive == true
+        log_in user
+        redirect_to home_path
+      else
+        flash.now[:danger] = 'Inactive account, contact system admin'
+        redirect_to login_path
+      end
     else
       flash.now[:danger] = 'Invalid email/password combination'
       render 'new'

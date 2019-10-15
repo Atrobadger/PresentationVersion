@@ -1,4 +1,68 @@
-<h1>SitePages#listings</h1>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <nav>
+      <ul>
+        <% if logged_in? %>
+        <li class="last"><a><%= link_to "Log out", logout_path, method: :delete %></li>
+        <% else %>
+        <li><%= link_to "Log in", login_path %></li>
+              <p>Not logged in</p>
+        <% end %>
+      </ul>
+    </nav>
+  </header>
+</div>
+<!-- content -->
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+    <section id="shout">
+      <% if logged_in? %>
+      <h3><a><%= link_to "return to main page",   home_path %></a></h3>
+      <% end %>
+    </section>
+    <!-- main content -->
+    <section id="services" class="clear">
+      <!-- article 1 -->
+      <article class="one_third">
+        <nav>
+          <form>
+            <p>Date: <input type="date" name="date_of_listing"></p>
+            <br>
+            <p>Location: <select name="locations">
+            <option value="Swanston St">Swanston St</option>
+            <option value="Elizabeth St">Elizabeth St</option>
+            <option value="Bourke St">Bourke St</option>
+            <option value="Lygon St">Lygon St</option>
+            <option value="Queens St">Queens St</option>
+            </select></p>
+            <br>
+            <p>Department: <select name="departments">
+            <option value="Cashier">Cashier</option>
+            <option value="Stockhandler">Stockhandler</option>
+            <option value="Dairy">Dairy</option>
+            <option value="Deli">Deli</option>
+            <option value="Bakery">Bakery</option>
+            </select></p>
+            <br>
+            <input type="submit" name="search" value="search">
+          </form>
+          
+        </nav>
+
+      </article>
+      <div class="vl"></div>
+      <!-- article 3 -->
+      
+      <article class="two_third lastbox">
 <p>This is the public listings page</p>
 <p>Note: All timetable times are in 24-hour time</p>
 
@@ -9,8 +73,11 @@
         <th>End Time</th>
         <th>Shift Length</th>
         <th>Department</th>
-        <th>Store Id</th>
-        <th>Take A Shift</th>
+        <th>Store</th>
+        <% if logged_in? %>
+            <th>Take A Shift</th>
+          <th>Shift Preference Compatibility</th>
+        <% end %>
     </tr>
     <% @shifts.each do |shift| %>
         <% if shift.ispublic == true %>
@@ -74,13 +141,248 @@
                 <% else %>
                   <td>No Department</td>
                 <% end%>
-                <td><%= shift.storeid %></td>
-                <td><%= link_to "Select", {:controller => "site_pages",
-                                   :action => "movePrivate",
-                                   :id => shift.id,
-                                   :userid => shift.userid}, method: "post",
-                                class: "btn btn-sm btn-success" %></td>
+                <% case %>
+                <% when !shift.storeid %>
+                  <td>Swanston St</td>
+                <% when shift.storeid == 1 %>
+                  <td>Swanston St</td>
+                <% when shift.storeid == 2 %>
+                  <td>Elizabeth St</td>
+                <% when shift.storeid == 3 %>
+                  <td>Bourke St</td>
+                <% when shift.storeid == 4 %>
+                  <td>Lygon St</td>
+                <% when shift.storeid > 4 %>
+                  <td>Queen's St</td>
+                <% end %>
+                <% if logged_in? %>
+                  <% if @preferences %>
+                    <% if shift.department == 1 %>
+                      <% case %>
+                      <% when @preferences.cashier == 5 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Very High</td>
+                      <% when @preferences.cashier == 4 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>High</td>
+                      <% when @preferences.cashier == 3 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Moderate</td>
+                      <% when @preferences.cashier == 2 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Low</td>
+                      <% when @preferences.cashier == 1 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Very Low</td>
+                      <% when @preferences.cashier == 0 %>
+                        <td>Cannot Be Selected</td>
+                        <td>Unqualified</td>
+                      <% end %>
+                    <% end %>
+                    <% if shift.department == 2 %>
+                      <% case %>
+                      <% when @preferences.stockhandler == 5 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Perfect</td>
+                      <% when @preferences.stockhandler == 4 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Perfect</td>
+                      <% when @preferences.stockhandler == 3 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Perfect</td>
+                      <% when @preferences.stockhandler == 2 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Perfect</td>
+                      <% when @preferences.stockhandler == 1 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Perfect</td>
+                      <% when @preferences.stockhandler == 0 %>
+                        <td>Cannot Be Selected</td>
+                        <td>Unqualified</td>
+                      <% end %>
+                    <% end %>
+                    <% if shift.department == 3 %>
+                      <% case %>
+                      <% when @preferences.dairy == 5 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Very High</td>
+                      <% when @preferences.dairy == 4 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>High</td>
+                      <% when @preferences.dairy == 3 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Moderate</td>
+                      <% when @preferences.dairy == 2 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Low</td>
+                      <% when @preferences.dairy == 1 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Very Low</td>
+                      <% when @preferences.dairy == 0 %>
+                        <td>Cannot Be Selected</td>
+                        <td>Unqualified</td>
+                      <% end %>
+                    <% end %>
+                    <% if shift.department == 4 %>
+                      <% case %>
+                      <% when @preferences.deli == 5 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Very High</td>
+                      <% when @preferences.deli == 4 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>High</td>
+                      <% when @preferences.deli == 3 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Moderate</td>
+                      <% when @preferences.deli == 2 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Low</td>
+                      <% when @preferences.deli == 1 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Very Low</td>
+                      <% when @preferences.deli == 0 %>
+                        <td>Cannot Be Selected</td>
+                        <td>Unqualified</td>
+                      <% end %>
+                    <% end %>
+                    <% if shift.department == 5 %>
+                      <% case %>
+                      <% when @preferences.baker == 5 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Very High</td>
+                      <% when @preferences.baker == 4 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>High</td>
+                      <% when @preferences.baker == 3 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Moderate</td>
+                      <% when @preferences.baker == 2 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Low</td>
+                      <% when @preferences.baker == 1 %>
+                        <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePrivate",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
+                        <td>Very Low</td>
+                      <% when @preferences.baker == 0 %>
+                        <td>Cannot Be Selected</td>
+                        <td>Unqualified</td>
+                      <% end %>
+                    <% end %>
+                  <% end %>
+                <% end %>
             </tr>
         <% end %>
     <% end %>
 </table>
+      </article>
+ 
+    </section>
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- / content body -->
+  </div>
+</div>
+
+</body>
+</html>

@@ -3,18 +3,18 @@ class ShiftsController < ApplicationController
     end
     
     def create
+      @theUser = User.find(session[:user_id])
       starttime = params[:starttime]
       endtime = params[:endtime]
       shiftlength = params[:shiftlength]
-      storeid = params[:storeid]
       department = params[:department]
     
-      if starttime != nil && endtime != nil && shiftlength != nil && storeid != nil && department != nil
+      if starttime != nil && endtime != nil && shiftlength != nil && department != nil
         shift = Shift.new
         shift.starttime = starttime
         shift.endtime = endtime
         shift.shiftlength = shiftlength
-        shift.storeid = storeid
+        shift.storeid = @theUser.storeid
         shift.ispublic = true
         shift.department = department
         shift.save

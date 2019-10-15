@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20190916161018) do
+ActiveRecord::Schema.define(version: 20191014113409) do
 
   create_table "preferences", force: :cascade do |t|
     t.integer "cashier"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20190916161018) do
     t.integer "baker"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "userid"
   end
 
   create_table "qualifications", force: :cascade do |t|
@@ -37,9 +38,9 @@ ActiveRecord::Schema.define(version: 20190916161018) do
     t.integer "shiftlength"
     t.integer "storeid"
     t.boolean "ispublic"
-    t.integer "department"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "department"
   end
 
   create_table "users", force: :cascade do |t|
@@ -52,6 +53,8 @@ ActiveRecord::Schema.define(version: 20190916161018) do
     t.boolean "isactive"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "storeid"
+    t.boolean "isadmin"
   end
 
 end

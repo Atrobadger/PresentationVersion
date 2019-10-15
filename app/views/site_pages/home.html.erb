@@ -1,18 +1,66 @@
-<h1>SitePages#home</h1>
-<p>This will be the user's personal page, containing their listings and access to their profile</p>
+<!DOCTYPE html>
 
-<table>
+<html lang="en" dir="ltr">
+<head>
+<title>Employee Main</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/layout.css" type="text/css">
+<!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
+</head>
+<body>
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <nav>
+      <ul>
+        <li class="last"><a><%= link_to "Log out", logout_path, method: :delete %></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+<div class="wrapper row2">
+  <div id="container" class="clear">
+    <!-- content body -->
+    <section id="shout">
+      
+      <h1>Welcome, <%= @theUser.firstname %>
+      <img src="images/notification.png" alt="" style="width:20px; height:20px; float:right;">
+      </h1>
+
+    </section>
+    <!-- main content -->
+    <section id="services" class="clear">
+      <!-- article 1 -->
+      <article class="one_third">
+        <nav>
+          <ul>
+            <li><a><%=link_to "Browse Shifts",listings_path %></a></li>
+            <br>
+            <li><a><%= link_to "Create A Shift", newlisting_path %></a></li>
+            <br>
+            <li><a><%= link_to "View Profile", profile_path %></a></li>
+            <br>
+            <% if @theUser.ismanager == true %>
+              <li><%= link_to "Register New User", signup_path, class: "btn btn-primary" %></li>
+            <% end %>
+          </ul>
+        </nav>
+
+      </article>
+      <div class="vl"></div>
+      <!-- article 3 -->
+      <article class="two_third lastbox">
+      <table>
     <tr>
         <th>Day Of The Week</th>
         <th>Start Time</th>
         <th>End Time</th>
         <th>Shift Length</th>
         <th>Department</th>
-        <th>Store Id</th>
-        <th>Post A Shift</th>
+        <th>Store</th>
+          <th>Post A Shift</th>
     </tr>
     <% @shifts.each do |shift| %>
-        <% if shift.ispublic == false %>
+        <% if session[:user_id] == shift.userid %>
             <tr>
               <% case %>
               <% when shift.starttime < 24 %>
@@ -73,13 +121,40 @@
                 <% else %>
                   <td>No Department</td>
                 <% end%>
-                <td><%= shift.storeid %></td>
-                <td><%= link_to "Select", {:controller => "site_pages",
-                                   :action => "movePublic",
-                                   :id => shift.id,
-                                   :userid => shift.userid}, method: "post",
-                                class: "btn btn-sm btn-success" %></td>
+                <% case %>
+                <% when !shift.storeid %>
+                  <td>Swanston St</td>
+                <% when shift.storeid == 1 %>
+                  <td>Swanston St</td>
+                <% when shift.storeid == 2 %>
+                  <td>Elizabeth St</td>
+                <% when shift.storeid == 3 %>
+                  <td>Bourke St</td>
+                <% when shift.storeid == 4 %>
+                  <td>Lygon St</td>
+                <% when shift.storeid > 4 %>
+                  <td>Queen's St</td>
+                <% end %>
+                  <td><%= link_to "Select", {:controller => "site_pages",
+                                     :action => "movePublic",
+                                     :id => shift.id,
+                                     :userid => shift.userid}, method: "post",
+                                  class: "btn btn-sm btn-success" %></td>
             </tr>
         <% end %>
     <% end %>
 </table>
+      </article>
+    </section>
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- ########################################################################################## -->
+    <!-- / content body -->
+  </div>
+</div>
+<!-- footer -->
+
+</div>
+</body>
+</html>

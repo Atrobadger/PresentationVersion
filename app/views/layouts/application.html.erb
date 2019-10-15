@@ -1,34 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>CoverShifts</title>
+    <title>Junctions</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/layout.css" type="text/css">
+    <!--[if lt IE 9]><script src="scripts/html5shiv.js"></script><![endif]-->
   </head>
 
   <body>
-    <header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container">
-        <nav>
-          <ul class="nav navbar-nav navbar-right">
-            <li><%= link_to "Home",   home_path %></li>
-            <li><%= link_to "Listings",   listings_path %></li>
-            <% if logged_in? %>
-              <li><%= link_to "Profile", profile_path %></li>
-              <li><%= link_to "Log out", logout_path, method: :delete %></li>
-              <li><%= link_to "Create A Shift", newlisting_path %></li>
-              <p>Logged in as a user</p>
-            <% else %>
-              <li><%= link_to "Log in", login_path %></li>
-              <li><%= link_to "Sign up", signup_path %></li>
-              <p>Not logged in</p>
-            <% end %>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    
+    
+    <div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1><a href="#">Junctions.</a></h1>
+    </div>
+  </header>
+    </div>
+    
+    
+    
     <div class="container">
       <%= yield %>
     </div>

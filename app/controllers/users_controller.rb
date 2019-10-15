@@ -15,8 +15,10 @@ class UsersController < ApplicationController
       user.password = password
       user.phonenumber = phonenumber
       user.emailaddress = emailaddress
+      user.storeid = storeid
       user.isactive = true
       user.ismanager = false
+      user.isadmin = false
       
       if user.valid?
         user.save 
